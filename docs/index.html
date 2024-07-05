@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotar Pedidos - Originex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Anotar Pedidos - Originex</h1>
+    <form id="order-form">
+        <div class="item-row">
+            <div class="item"></div>
+            <div class="item">
+                <label for="table-number">Número da Mesa:</label>
+                <input type="text" id="table-number" name="table-number" required>
+            </div>
+            <div class="item"></div>
+        </div>
+
+        <h2>Hambúrgueres</h2>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Originex"> Originex</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Texano"> Texano</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Rocky"> Rocky</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Umami"> Umami</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Classic Bacon"> Classic Bacon</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Classic Salad"> Classic Salad</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Classic Cheese"> Classic Cheese</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Cum Ovo"> Cum Ovo</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Franbacon Crispy"> Franbacon Crispy</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Vegeta"> Vegeta</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        
+        <!-- Repita para cada opção de Hambúrguer -->
+        <!-- ... -->
+
+        <h2>Petiscos</h2>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Fritas Clássica"> Fritas Clássica</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Fritas Especiais"> Fritas Especiais</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Dadinhos de Tapioca"> Dadinhos de Tapioca</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Galinha Fritadinha"> Galinha Fritadinha</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Hot Chicken"> Hot Chicken</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Sticks de Mussarela"> Sticks de Mussarela</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        
+        <!-- Repita para cada opção de Petisco -->
+        <!-- ... -->
+
+        <h2>Bebidas</h2>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Suco de Laranja"> Suco de Laranja</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Suco Kapo"> Suco Kapo</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Coca Lata"> Coca Lata</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Coca Zero"> Coca Zero</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Guaraná"> Guaraná</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Guaraná Zero"> Guaraná Zero</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Cajuína Lata"> Cajuína Lata</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Fanta"> Fanta</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Sprite"> Sprite</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Sprite Zero"> Sprite Zero</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+           <div class="item">
+                <label><input type="checkbox" name="item" value="Schweppes"> Schweppes</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Coca 1L"> Coca 1L</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Cajuína 1L"> Cajuina 1L</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="H2O"> H2O</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Sprite Lemon Fresh"> Sprite Lemon Fresh</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Agua Mineral"> Agua Mineral</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Agua com Gas"> Agua com Gas</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Heineken"> Heineken</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+        </div>
+        <div class="item-row">
+            <div class="item">
+                <label><input type="checkbox" name="item" value="Budweiser"> Budweiser</label>
+                <input type="number" name="quantity" min="1" placeholder="Qtd">
+                <input type="text" name="note" placeholder="Observações">
+            </div>
+            <div class="item"></div>
+        </div>
+        <!-- Repita para cada opção de Bebida -->
+        <!-- ... -->
+
+        <button type="submit" id="submit-button">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
