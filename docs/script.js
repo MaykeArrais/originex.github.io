@@ -19,6 +19,8 @@ document.getElementById('order-form').addEventListener('submit', function(event)
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(orderMessage)}`;
 
     window.open(whatsappURL, '_blank');
+
+    location.reload();
 });
 
 
